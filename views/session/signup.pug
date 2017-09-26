@@ -1,14 +1,14 @@
-extend frame
+extend ../template/layout
 block content
 
     .middle-box.text-center.loginscreen.animated.fadeInDown(style='margin-top:0px; margin-bottom:100px;')
         div
             div
-                 h1.logo-name(style="position:relative; left:-30%; margin-bottom:25px;") odigós
+                 h1.logo-name NJS
             h3 Sign up now!
             p Create account to see it in action.
-            if message.length > 0
-                .alert.alert-danger #{message}
+            // if message.length > 0
+                 .alert.alert-danger #{message}
             form.m-t(role='form', action='/register' method='post')
                 .form-group
                     input.form-control(type='text', name='name', placeholder='Name', required='')

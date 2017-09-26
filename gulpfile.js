@@ -16,7 +16,7 @@ gulp.task('default', ['server', 'watch:styles', 'watch:scripts']);
 gulp.task('server', function(){
     var date    = new Date(),
         dateFmt = date.getMonth() + '-' + date.getDate() + '-' + date.getFullYear(),
-        server  = child.spawn('node', ['./bin/www']),
+        server  = child.spawn('nodemon', ['./bin/www']),
         log     = fs.createWriteStream('./logs/server_' + dateFmt + '.log', {flags: 'a'});
     server.stdout.pipe(log);
     server.stderr.pipe(log);
