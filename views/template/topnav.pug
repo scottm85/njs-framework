@@ -6,27 +6,6 @@ nav.navbar.navbar-static-top(role='navigation' style='margin-bottom:0px;')
             .form-group
                 input#top-search.form-control(type='text', name='id', placeholder='Search for something...')
     ul.nav.navbar-top-links.navbar-right
-        //
-            li(style='vertical-align:middle;')
-                form(name='datepickers')
-                    .col-md-12(style='width:550px;')
-                        .col-md-6
-                            label.col-md-2.control-label(for='from-date', style='margin-top:7px;') From
-                            .col-md-10
-                                #task-from-date-group.input-group.input-append.date(data-date='01/27/2015', data-date-format='mm/dd/yyyy')
-                                    input#task-from-date.form-control(type='text', name='from-date', value='01/27/2015', readonly='readonly')
-                                    span.input-group-btn.add-on
-                                        button.btn.btn-primary.dp(type='button')
-                                            span.glyphicon.glyphicon-calendar
-                        .col-md-6
-                            label.col-md-2.control-label(for='from-date', style='margin-top:7px;') To
-                            .col-md-10
-                                #task-to-date-group.input-group.input-append.date(data-date='01/27/2015', data-date-format='mm/dd/yyyy')
-                                    input#task-to-date.form-control(type='text', name='to-date', value='01/27/2015', readonly='readonly')
-                                    span.input-group-btn.add-on
-                                        button.btn.btn-primary.dp(type='button')
-                                            span.glyphicon.glyphicon-calendar
-        
         li
             span.m-r-sm.text-muted.welcome-message Welcome to the NodeJS Framework
         li
