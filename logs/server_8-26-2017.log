@@ -1,0 +1,693 @@
+[0mGET / [36m304 [0m392.341 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.390 ms - -[0m
+[0mGET /javascripts/main.js [36m304 [0m1.030 ms - -[0m
+[0mGET / [32m200 [0m373.652 ms - 234[0m
+[0mGET /css/custom/style.css [32m200 [0m5.126 ms - 315[0m
+[0mGET /js/custom/main.js [32m200 [0m1.776 ms - 53[0m
+[0mGET / [36m304 [0m30.501 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m1.367 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m1.432 ms - -[0m
+[0mGET / [31m500 [0m186.936 ms - 1104[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/userinfo.pug'
+    at /home/ubuntu/workspace/framework/views/layout.pug line 31
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [32m200 [0m218.508 ms - 2362[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.044 ms - 114024[0m
+[0mGET /css/font-awesome.css [32m200 [0m2.203 ms - 28747[0m
+[0mGET /css/themes/style.css [32m200 [0m2.478 ms - 517[0m
+[0mGET /js/jquery-2.1.1.js [32m200 [0m2.582 ms - 84247[0m
+[0mGET /css/animate.css [32m200 [0m2.288 ms - 65564[0m
+[0mGET /css/style.css [32m200 [0m1.055 ms - 172345[0m
+[0mGET /js/bootstrap.min.js [32m200 [0m0.658 ms - 36816[0m
+[0mGET /js/custom/main.js [36m304 [0m0.443 ms - -[0m
+[0mGET /css/patterns/header-profile.png [32m200 [0m0.682 ms - 5877[0m
+[0mGET /img/favicon.ico [33m404 [0m84.903 ms - 3327[0m
+[0mGET / [36m304 [0m110.563 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.056 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m1.916 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.350 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.397 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.331 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.293 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.309 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.417 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.701 ms - -[0m
+[0mGET / [32m200 [0m169.096 ms - 2414[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.072 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.840 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.758 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.673 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.328 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.822 ms - -[0m
+[0mGET /css/custom/style.css [32m200 [0m2.046 ms - 39[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.979 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.452 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.428 ms - -[0m
+[0mGET / [36m304 [0m145.101 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.615 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.506 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.663 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m1.019 ms - -[0m
+[0mGET /css/style.css [36m304 [0m1.410 ms - -[0m
+[0mGET /css/custom/style.css [32m200 [0m2.705 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.267 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.236 ms - -[0m
+[0mGET /js/custom/main.js [32m200 [0m0.721 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.661 ms - -[0m
+[0mGET / [31m500 [0m99.257 ms - 1104[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/userinfo.pug'
+    at /home/ubuntu/workspace/framework/views/layout.pug line 30
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m22.742 ms - 1104[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/userinfo.pug'
+    at /home/ubuntu/workspace/framework/views/layout.pug line 30
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m33.230 ms - 1104[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/userinfo.pug'
+    at /home/ubuntu/workspace/framework/views/layout.pug line 30
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [32m200 [0m111.998 ms - 5703[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.362 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.415 ms - -[0m
+[0mGET /css/style.css [36m304 [0m1.020 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.308 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.415 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.326 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.192 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.556 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.317 ms - -[0m
+[0mGET /img/default_profile_image.png [33m404 [0m87.531 ms - 6668[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m1.735 ms - -[0m
+[0mGET /fonts/fontawesome-webfont.woff2?v=4.3.0 [32m200 [0m1.082 ms - 56780[0m
+[0mGET / [36m304 [0m84.100 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.705 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.514 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.442 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.306 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.307 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.599 ms - -[0m
+[0mGET /css/style.css [36m304 [0m1.232 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.365 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.396 ms - -[0m
+[0mGET /img/default_profile_image.png [33m404 [0m68.059 ms - 6668[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.913 ms - -[0m
+[0mGET /fonts/fontawesome-webfont.woff2?v=4.3.0 [36m304 [0m2.134 ms - -[0m
+[0mGET /logout [33m404 [0m106.833 ms - 6668[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.464 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.628 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.382 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m1.119 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.759 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.576 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.520 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.253 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.361 ms - -[0m
+[0mGET /img/default_profile_image.png [33m404 [0m192.020 ms - 6668[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.735 ms - -[0m
+[0mGET /fonts/fontawesome-webfont.woff2?v=4.3.0 [36m304 [0m0.612 ms - -[0m
+[0mGET / [32m200 [0m242.527 ms - 5703[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.231 ms - 114024[0m
+[0mGET /css/animate.css [32m200 [0m0.797 ms - 65564[0m
+[0mGET /css/font-awesome.css [32m200 [0m1.288 ms - 28747[0m
+[0mGET /css/custom/style.css [32m200 [0m0.417 ms - -[0m
+[0mGET /css/themes/style.css [32m200 [0m0.464 ms - 517[0m
+[0mGET /js/jquery-2.1.1.js [32m200 [0m0.680 ms - 84247[0m
+[0mGET /css/style.css [32m200 [0m1.064 ms - 172345[0m
+[0mGET /js/bootstrap.min.js [32m200 [0m0.579 ms - 36816[0m
+[0mGET /js/custom/main.js [32m200 [0m0.650 ms - -[0m
+[0mGET /img/default_profile_image.png [33m404 [0m82.652 ms - 6668[0m
+[0mGET /css/patterns/header-profile.png [32m200 [0m1.067 ms - 5877[0m
+[0mGET /fonts/fontawesome-webfont.woff2?v=4.3.0 [32m200 [0m0.416 ms - 56780[0m
+[0mGET /img/favicon.ico [33m404 [0m67.733 ms - 6668[0m
+[0mGET /css/animate.css [36m304 [0m0.692 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m1.095 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.578 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.266 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.423 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.402 ms - -[0m
+[0mGET / [32m200 [0m173.299 ms - 5711[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.530 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.368 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m2.102 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.597 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.665 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.302 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.319 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.259 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.468 ms - -[0m
+[0mGET /img/default_profile_image.png [33m404 [0m161.327 ms - 6676[0m
+[0mGET /fonts/fontawesome-webfont.woff2?v=4.3.0 [36m304 [0m0.812 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.882 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m83.088 ms - 6676[0m
+[0mGET / [32m200 [0m88.794 ms - 5711[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.793 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.355 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.373 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.264 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m3.306 ms - -[0m
+[0mGET /css/style.css [36m304 [0m3.317 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.699 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.900 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.634 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.419 ms - -[0m
+[0mGET /fonts/fontawesome-webfont.woff2?v=4.3.0 [36m304 [0m0.404 ms - -[0m
+[0mGET / [36m304 [0m94.331 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.404 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.332 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.353 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.709 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.821 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.386 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.406 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.334 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.816 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.405 ms - -[0m
+[0mGET / [32m200 [0m85.814 ms - 5154[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.560 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.408 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.409 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.339 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.340 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.372 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.422 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.462 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.418 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.412 ms - -[0m
+[0mGET /profile [33m404 [0m61.993 ms - 6119[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.538 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m1.538 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m1.547 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.934 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.920 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.990 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.682 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.713 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.589 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.579 ms - -[0m
+[0mGET / [36m304 [0m92.231 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.450 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.359 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.733 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.230 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.324 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.275 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.386 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.574 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.357 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m1.438 ms - -[0m
+[0mGET / [36m304 [0m274.198 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.725 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.601 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.632 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.296 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.443 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.395 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.562 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.498 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.458 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.339 ms - -[0m
+[0mGET / [36m304 [0m223.690 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.468 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.510 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m3.744 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m1.002 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m1.006 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.932 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.256 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.590 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m2.450 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.426 ms - -[0m
+[0mGET / [31m500 [0m8.791 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m3.481 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m4.142 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m3.939 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m4.509 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m4.729 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m23.991 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m23.642 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m16.488 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m12.677 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m269.031 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m23.239 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m62.036 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m36.558 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m32.613 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m7.990 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m7.880 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m6.187 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m287.941 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m6.586 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m5.450 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m7.119 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m8.211 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m8.218 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m11.586 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m5.087 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m7.368 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m6.634 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m5.561 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m6.192 ms - 1100[0m
+Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/framework/views/layout.pug'
+    at /home/ubuntu/workspace/framework/views/error.pug line 1
+    at Error (native)
+    at Object.fs.openSync (fs.js:641:18)
+    at Object.fs.readFileSync (fs.js:509:33)
+    at Function.read (/home/ubuntu/workspace/framework/node_modules/pug-load/index.js:69:13)
+    at Object.read (/home/ubuntu/workspace/framework/node_modules/pug/lib/index.js:147:25)
+    at /home/ubuntu/workspace/framework/node_modules/pug-load/index.js:24:25
+    at walkAST (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:23:18)
+    at /home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (native)
+    at walkAndMergeNodes (/home/ubuntu/workspace/framework/node_modules/pug-walk/index.js:103:18)
+[0mGET / [31m500 [0m326.976 ms - 6077[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m3.355 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.869 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.650 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.614 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.285 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.289 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.419 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.410 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.521 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m1.804 ms - -[0m
+[0mGET /fonts/fontawesome-webfont.woff2?v=4.3.0 [36m304 [0m0.766 ms - -[0m
+[0mGET / [31m500 [0m150.221 ms - 6077[0m
+[0mGET /css/animate.css [36m304 [0m1.070 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.676 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.927 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.561 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.615 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.239 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m1.320 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.227 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.312 ms - -[0m
+[0mGET /fonts/fontawesome-webfont.woff2?v=4.3.0 [36m304 [0m1.397 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m1.215 ms - -[0m
+[0mGET / [32m200 [0m96.708 ms - 5154[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m2.458 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.446 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.364 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m0.522 ms - -[0m
+[0mGET /css/style.css [36m304 [0m0.271 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.318 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.294 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.420 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.360 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.816 ms - -[0m
+[0mGET /fonts/fontawesome-webfont.woff2?v=4.3.0 [36m304 [0m0.761 ms - -[0m
+[0mGET / [32m200 [0m408.947 ms - 5120[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.703 ms - -[0m
+[0mGET /css/font-awesome.css [36m304 [0m0.692 ms - -[0m
+[0mGET /css/animate.css [36m304 [0m0.495 ms - -[0m
+[0mGET /css/themes/style.css [36m304 [0m1.898 ms - -[0m
+[0mGET /css/style.css [36m304 [0m1.957 ms - -[0m
+[0mGET /css/custom/style.css [36m304 [0m0.200 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.377 ms - -[0m
+[0mGET /js/jquery-2.1.1.js [36m304 [0m0.533 ms - -[0m
+[0mGET /js/custom/main.js [36m304 [0m0.387 ms - -[0m
+[0mGET /css/patterns/header-profile.png [36m304 [0m0.305 ms - -[0m
+[0mGET /fonts/fontawesome-webfont.woff2?v=4.3.0 [36m304 [0m0.409 ms - -[0m

@@ -1,0 +1,61 @@
+doctype
+html
+
+    head
+        
+        title #{title} - New Framework
+        
+        meta(charset='utf-8')
+        meta(name="viewport", content='width=device-width', initial-scale=1.0)
+
+        //link(rel="shortcut icon", href="img/favicon.ico", type="image/x-icon")
+        link(rel='stylesheet', href='/css/bootstrap.min.css')
+        link(rel='stylesheet', href='/css/font-awesome.css')
+        link(rel='stylesheet', href='/css/animate.css')
+        link(rel='stylesheet', href='/css/style.css')
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.23.5/css/theme.bootstrap.min.css')
+        link(rel='stylesheet', href='/css/themes/style.css')
+        link(rel='stylesheet', href='/css/custom/style.css')
+        
+        script(src='/js/jquery-2.1.1.js')
+        script(src='/js/bootstrap.min.js')
+        script(src='/js/custom/main.js')
+
+    body
+        #wrapper
+            nav.navbar-default.navbar-static-side(role='navigation')
+                .sidebar-collapse
+                    ul#side-menu.nav
+                        li.nav-header
+                            include userinfo
+                        include navigation
+
+            #page-wrapper.gray-bg.dashbard-1
+                .row.border-bottom
+                    include topnav
+                #breadcrumb-header.row.wrapper.border-bottom.white-bg.page-heading
+                    include page-header
+                .row
+                    .col-lg-12
+                        .wrapper.wrapper-content
+                            block content
+                        .footer
+                            include footer
+
+            #response.modal.fade(style='display:none;', aria-hidden='true')
+                .modal-dialog
+                    .modal-content
+                        .modal-header.panel-heading
+                            button.close(type='button', data-dismiss='modal', aria-hidden='true') x
+                            h4.modal-title Notification
+                        .modal-body
+                        .modal-footer
+                            button.btn.btn-default(type='button', data-dismiss='modal') Close
+
+            #overlay(style="display:none; width:100%; position:fixed; top:0px; right:0px; background:rgba(0,0,0,.1); z-index:99;")
+                #loading.well(style='width:40%; text-align:center; margin: 0px auto;')
+                    .progress.progress-striped.active
+                        .progress-bar.progress-bar-danger(style='width:100%; background-color:#1ab394;', role='progressbar', aria-valuenow='75')
+                            span.sr-only 40% Complete (success)
+                    p
+                        | Please Wait...

@@ -1,0 +1,27 @@
+{
+  "name": "framework",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "serve-favicon": "~2.4.2",
+    "stylus": "~0.54.5",
+    "nib": "~1.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-chown": "^1.1.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

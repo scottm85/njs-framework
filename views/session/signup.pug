@@ -1,0 +1,37 @@
+extend frame
+block content
+
+    .middle-box.text-center.loginscreen.animated.fadeInDown(style='margin-top:0px; margin-bottom:100px;')
+        div
+            div
+                 h1.logo-name(style="position:relative; left:-30%; margin-bottom:25px;") odigós
+            h3 Sign up now!
+            p Create account to see it in action.
+            if message.length > 0
+                .alert.alert-danger #{message}
+            form.m-t(role='form', action='/register' method='post')
+                .form-group
+                    input.form-control(type='text', name='name', placeholder='Name', required='')
+                .form-group
+                    input.form-control(type='email', name='email', placeholder='Email', required='')
+                .form-group
+                    input.form-control(type='password', name='password', placeholder='Password', required='')
+                .form-group
+                    .checkbox.i-checks
+                        label
+                            input.checkbox(type='checkbox' name='tnc' required='')
+                            i 
+                            | I agree with the terms and conditions
+                button.btn.btn-primary.block.full-width.m-b(type='submit') Register
+                p.text-muted.text-center
+                    small Already have an account?
+                a.btn.btn-sm.btn-white.btn-block(href='/login') Login
+            p.m-t
+                small NJS+ framework based on Bootstrap 3 © 2014
+                
+    script.
+        $(function(){
+            $('input[type="checkbox"]').iCheck({
+                checkboxClass: 'icheckbox_square-green'
+            });
+        });
