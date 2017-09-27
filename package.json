@@ -10,11 +10,12 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
+    "mongoose": "^4.11.13",
     "morgan": "~1.8.1",
+    "nib": "~1.1.2",
     "pug": "~2.0.0-beta11",
     "serve-favicon": "~2.4.2",
-    "stylus": "~0.54.5",
-    "nib": "~1.1.2"
+    "stylus": "~0.54.5"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
