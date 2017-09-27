@@ -9,12 +9,24 @@ var gulp        = require("gulp"),
     fs          = require('fs'),
     user        = 'ubuntu';
 
+
+console.log('||**********************|| DO NOT RUN AS SUDO ||**********************||');
+
+
+// INIT
 gulp.task('default', ['mongodb', 'server', 'watch:styles', 'watch:scripts']);
+
 
 // DATABASE
 gulp.task('mongodb', function(){
-    var server  = child.spawn('./mongod');
+    var date    = new Date(),
+        dateFmt = date.getMonth() + '-' + date.getDate() + '-' + date.getFullYear(),
+        server  = child.spawn('./mongod'),
+        log     = fs.createWriteStream('./logs/database_' + dateFmt + '.log', {flags: 'a'});
+    server.stdout.pipe(log);
+    server.stderr.pipe(log);
 });
+
 
 // SERVER
 gulp.task('server', function(){
@@ -26,6 +38,7 @@ gulp.task('server', function(){
     server.stderr.pipe(log);
 });
 
+
 // STYLESHEETS
 gulp.task('styles', function(){
     gulp.src('./public/css/custom/*_src.styl')
@@ -35,6 +48,7 @@ gulp.task('styles', function(){
         }))
         .pipe(cleanCSS())
         .pipe(rename(function(path){
+            console.log('CSS: ' + (path.basename + path.extname ) + ' was minified ****');
             path.basename = path.basename.split('_src')[0]
         }))
         .pipe(chown(user))
@@ -45,11 +59,13 @@ gulp.task('watch:styles', function(){
     gulp.watch('./public/css/custom/*_src.styl', ['styles']);
 });
 
+
 // JAVASCRIPTS
 gulp.task('scripts', function(){
     gulp.src('./public/js/custom/*_src.js')
         .pipe(uglify())
         .pipe(rename(function(path){
+            console.log('Script: ' + (path.basename + path.extname ) + ' was uglified ****');
             path.basename = path.basename.split('_src')[0]
         }))
         .pipe(chown(user))
