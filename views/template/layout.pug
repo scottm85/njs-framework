@@ -24,15 +24,15 @@ html
         #wrapper
             nav.navbar-default.navbar-static-side(role='navigation')
                 .sidebar-collapse
-                    ul#side-menu.nav
+                    ul.nav
                         li.nav-header
                             include userinfo
                         include navigation
 
-            #page-wrapper.gray-bg.dashbard-1
+            #page-wrapper.gray-bg
                 .row.border-bottom
                     include topnav
-                #breadcrumb-header.row.wrapper.border-bottom.white-bg.page-heading
+                .row.wrapper.border-bottom.white-bg.page-heading
                     include page-header
                 .row
                     .col-lg-12
@@ -40,21 +40,3 @@ html
                             block content
                         .footer
                             include footer
-
-            #response.modal.fade(style='display:none;', aria-hidden='true')
-                .modal-dialog
-                    .modal-content
-                        .modal-header.panel-heading
-                            button.close(type='button', data-dismiss='modal', aria-hidden='true') x
-                            h4.modal-title Notification
-                        .modal-body
-                        .modal-footer
-                            button.btn.btn-default(type='button', data-dismiss='modal') Close
-
-            #overlay(style="display:none; width:100%; position:fixed; top:0px; right:0px; background:rgba(0,0,0,.1); z-index:99;")
-                #loading.well(style='width:40%; text-align:center; margin: 0px auto;')
-                    .progress.progress-striped.active
-                        .progress-bar.progress-bar-danger(style='width:100%; background-color:#1ab394;', role='progressbar', aria-valuenow='75')
-                            span.sr-only 40% Complete (success)
-                    p
-                        | Please Wait...
