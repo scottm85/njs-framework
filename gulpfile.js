@@ -9,10 +9,14 @@ var gulp        = require("gulp"),
     fs          = require('fs'),
     user        = 'ubuntu';
 
+gulp.task('default', ['mongodb', 'server', 'watch:styles', 'watch:scripts']);
+
+// DATABASE
+gulp.task('mongodb', function(){
+    var server  = child.spawn('./mongod');
+});
 
 // SERVER
-gulp.task('default', ['server', 'watch:styles', 'watch:scripts']);
-
 gulp.task('server', function(){
     var date    = new Date(),
         dateFmt = date.getMonth() + '-' + date.getDate() + '-' + date.getFullYear(),
@@ -21,7 +25,6 @@ gulp.task('server', function(){
     server.stdout.pipe(log);
     server.stderr.pipe(log);
 });
-
 
 // STYLESHEETS
 gulp.task('styles', function(){
@@ -41,7 +44,6 @@ gulp.task('styles', function(){
 gulp.task('watch:styles', function(){
     gulp.watch('./public/css/custom/*_src.styl', ['styles']);
 });
-
 
 // JAVASCRIPTS
 gulp.task('scripts', function(){
