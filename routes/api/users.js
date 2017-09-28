@@ -1,11 +1,15 @@
-const express = require('express'),
-      router  = express.Router();
+module.exports = function(io){
 
-router.get('/api', function(req, res, next) {
-    let date = new Date();
-    res.json({
-        'date': date.toString()
+    const express = require('express'),
+          router  = express.Router();
+    
+    router.get('/api', function(req, res, next) {
+        let date = new Date();
+        res.json({
+            'date': date.toString()
+        });
     });
-});
+    
+    return router;
 
-module.exports = router;
+};

@@ -11,7 +11,6 @@ const gulp      = require("gulp"),
       dateFmt   = new Intl.DateTimeFormat("en-US"),
       date      = dateFmt.format(new Date()).replace(/\//g, '-'),
       user      = 'ubuntu';
-      
 
 console.log('||**********************|| DO NOT RUN AS SUDO ||**********************||');
 

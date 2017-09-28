@@ -1,5 +1,6 @@
 const mongoose        = require('mongoose'),
       express         = require('express'),
+      socket_io       = require('socket.io'),
       path            = require('path'),
       favicon         = require('serve-favicon'),
       logger          = require('morgan'),
@@ -7,16 +8,20 @@ const mongoose        = require('mongoose'),
       bodyParser      = require('body-parser'),
       configDB        = require('./config/database.js');
 
-// ROUTES
-const index = require('./routes/index'),
-    users = require('./routes/api/users');
+let app = express(),
+    io  = socket_io();
+    
+app.io = io;
 
-let app = express();
+// routes
+const index = require('./routes/index')(io),
+      users = require('./routes/api/users')(io);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
+// database
 mongoose.connect(configDB.url, { useMongoClient: true });
 
 // uncomment after placing your favicon in /public
