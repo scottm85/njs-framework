@@ -2,15 +2,16 @@ const gulp      = require("gulp"),
       chown     = require('gulp-chown'),
       stylus    = require("gulp-stylus"),
       cleanCSS  = require("gulp-clean-css"),
-      nib       = require('nib'),
       uglify    = require("gulp-uglify"),
       rename    = require("gulp-rename"),
-      child     = require('child_process'),
-      fs        = require('fs'),
       jshint    = require('gulp-jshint'),
-      user      = 'ubuntu',
-      date      = new Date(),
-      dateFmt   = date.getMonth() + '-' + date.getDate() + '-' + date.getFullYear();
+      nib       = require('nib'),
+      fs        = require('fs'),
+      child     = require('child_process'),
+      dateFmt   = new Intl.DateTimeFormat("en-US"),
+      date      = dateFmt.format(new Date()).replace(/\//g, '-'),
+      user      = 'ubuntu';
+      
 
 console.log('||**********************|| DO NOT RUN AS SUDO ||**********************||');
 
@@ -26,7 +27,7 @@ gulp.task('default', [
 // DATABASE
 gulp.task('mongodb', function(){
     let server  = child.spawn('./mongod'),
-        log     = fs.createWriteStream('./logs/database_' + dateFmt + '.log', {flags: 'a'});
+        log     = fs.createWriteStream('./logs/database_' + date + '.log', {flags: 'a'});
     server.stdout.pipe(log);
     server.stderr.pipe(log);
 });
@@ -34,7 +35,7 @@ gulp.task('mongodb', function(){
 // SERVER
 gulp.task('server', function(){
     let server  = child.spawn('nodemon', ['./bin/www']),
-        log     = fs.createWriteStream('./logs/server_' + dateFmt + '.log', {flags: 'a'});
+        log     = fs.createWriteStream('./logs/server_' + date + '.log', {flags: 'a'});
     server.stdout.pipe(log);
     server.stderr.pipe(log);
 });
