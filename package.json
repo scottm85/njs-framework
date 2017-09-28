@@ -21,9 +21,11 @@
         "gulp": "^3.9.1",
         "gulp-chown": "^1.1.0",
         "gulp-clean-css": "^3.9.0",
+        "gulp-jshint": "^2.0.4",
         "gulp-rename": "^1.2.2",
         "gulp-stylus": "^2.6.0",
         "gulp-uglify": "^3.0.0",
+        "jshint": "^2.9.5",
         "nodemon": "^1.12.1"
     }
 }
