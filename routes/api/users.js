@@ -1,8 +1,8 @@
-var express = require('express'),
-    router  = express.Router();
+const express = require('express'),
+      router  = express.Router();
 
 router.get('/api', function(req, res, next) {
-    var date = new Date();
+    let date = new Date();
     res.json({
         'date': date.toString()
     });
