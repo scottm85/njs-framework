@@ -15,7 +15,13 @@ const gulp      = require("gulp"),
 console.log('||**********************|| DO NOT RUN AS SUDO ||**********************||');
 
 // INIT
-gulp.task('default', ['mongodb', 'server', 'watch:styles', 'watch:scripts', 'client-lint', 'server-routes-lint', 'server-schemas-lint', 'server-config-lint']);
+gulp.task('default', [
+    'mongodb',
+    'server',
+    'watch:styles',
+    'watch:scripts',
+    'lint'
+]);
 
 // DATABASE
 gulp.task('mongodb', function(){
@@ -67,29 +73,22 @@ gulp.task('scripts', function(){
 
 gulp.task('watch:scripts', function(){
     gulp.watch('./public/js/custom/*_src.js', ['scripts']);
+    gulp.watch([
+        './public/js/custom/**/*.js',
+        './routes/**/*.js',
+        './schemas/**/*.js',
+        './config/**/*.js'
+    ], ['lint']);
 });
 
 // LINTER
-gulp.task('client-lint', function() {
-  return gulp.src('./public/js/custom/*.js')
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'));
-});
-
-gulp.task('server-routes-lint', function() {
-  return gulp.src('./routes/**/*.js')
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'));
-});
-
-gulp.task('server-schemas-lint', function() {
-  return gulp.src('./schemas/**/*.js')
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'));
-});
-
-gulp.task('server-config-lint', function() {
-  return gulp.src('./config/**/*.js')
+gulp.task('lint', function() {
+  return gulp.src([
+      './public/js/custom/**/*.js',
+      './routes/**/*.js',
+      './schemas/**/*.js',
+      './config/**/*.js'
+    ])
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
 });
