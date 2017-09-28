@@ -1,0 +1,4 @@
+mongod
+data/
+logs/*.log
+*.log
