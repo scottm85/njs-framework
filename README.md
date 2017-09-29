@@ -16,6 +16,13 @@ Base framework I've set up as a starting point for nodejs projects.
 * mongodb
 * mongoose
 * gulp
+  * gulp-chown
+  * gulp-stylus
+  * gulp-clean-css
+  * gulp-uglify
+  * gulp-javascript-obfuscator
+  * gulp-rename
+  * gulp-jshint
 * nodemon
 * jshint
 
