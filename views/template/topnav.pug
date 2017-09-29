@@ -7,8 +7,10 @@ nav.navbar.navbar-static-top(role='navigation' style='margin-bottom:0px;')
                 input#top-search.form-control(type='text', name='id', placeholder='Search for something...')
     ul.nav.navbar-top-links.navbar-right
         li
-            span.m-r-sm.text-muted.welcome-message Welcome to the NodeJS Framework
-        li
-            a(href='/logout')
-                i.fa.fa-sign-out
-                |  Logout
+            a
+                span.m-r-sm.text-muted.welcome-message Welcome to the NJS Framework
+        if user
+            li
+                a(href='/logout')
+                    i.fa.fa-sign-out
+                    |  Logout

@@ -2,7 +2,8 @@ const LocalStrategy = require('passport-local').Strategy,
       mongoose      = require("mongoose"),
       User          = require('../schemas/users'),
       uuid          = require('node-uuid'),
-      crypto        = require('crypto');
+      crypto        = require('crypto'),
+      nodemailer    = require('nodemailer');
 
 // expose this function to our app using module.exports
 module.exports = function(passport) {
@@ -25,7 +26,6 @@ module.exports = function(passport) {
         passwordField : 'password',
         passReqToCallback : true // allows us to pass back the entire request to the callback
     }, function(req, email, password, done) {
-        console.log(email);
         // asynchronous
         // User.findOne wont fire unless data is sent back
         process.nextTick(function() {
@@ -63,6 +63,19 @@ module.exports = function(passport) {
                     newUser.save(function(err) {
                         if (err)
                             throw err;
+                            
+                        let transport = nodemailer.createTransport('direct', {
+                            debug: true,
+                        });
+                        
+                        transport.sendMail({
+                            from: 'verification@njsframework.com',
+                            to: newUser.email,
+                            subject: 'Hello ✔ - Please verify your new account',
+                            text: 'Click the link to verify your account:',
+                            html: '<a href="https://new-framework-wrxsti85.c9users.io/verify/' + newUser.apikey + '">Verify</a>'
+                        }, console.error);
+                        
                         return done(null, newUser);
                     });
                     
@@ -97,6 +110,7 @@ module.exports = function(passport) {
                 return done(null, false, req.flash('loginMessage', 'Oops! Wrong password.')); // create the loginMessage and save it to session as flashdata
 
             // all is well, return successful user
+            req.session.user = user;
             return done(null, user);
         });
 

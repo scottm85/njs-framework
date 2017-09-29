@@ -19,6 +19,13 @@ module.exports = function(io, passport){
         });
     });
     
+    router.get('/logout', function(req, res, next) {
+        req.session.destroy(function(err) {
+            if(err) throw err;
+            res.redirect('/');
+        });
+    });
+    
     router.post('/attempt-login', passport.authenticate('local-login', {
         successRedirect : '/', // redirect to the secure profile section
         failureRedirect : '/login', // redirect back to the signup page if there is an error

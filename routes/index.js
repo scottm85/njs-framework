@@ -4,7 +4,11 @@ module.exports = function(io, passport){
           User      = require("../schemas/users");
 
     router.get('/', function(req, res, next) {
-        res.render('index', { title: 'Express' });
+        if(!req.session.user) res.redirect('/login');
+        res.render('index', {
+            title: 'Express',
+            user: req.session.user
+        });
     });
     
     io.on('connection', function(socket){
