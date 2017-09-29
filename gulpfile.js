@@ -3,6 +3,7 @@ const gulp      = require("gulp"),
       stylus    = require("gulp-stylus"),
       cleanCSS  = require("gulp-clean-css"),
       uglify    = require("gulp-uglify"),
+      obfuscate = require("gulp-javascript-obfuscator"),
       rename    = require("gulp-rename"),
       jshint    = require('gulp-jshint'),
       nib       = require('nib'),
@@ -62,9 +63,10 @@ gulp.task('watch:styles', function(){
 // JAVASCRIPTS
 gulp.task('scripts', function(){
     gulp.src('./public/js/custom/*_src.js')
+        .pipe(obfuscate())
         .pipe(uglify())
         .pipe(rename(function(path){
-            console.log('Script: ' + (path.basename + path.extname ) + ' was uglified ****');
+            console.log('Script: ' + (path.basename + path.extname ) + ' was obfuscated & uglified ****');
             path.basename = path.basename.split('_src')[0];
         }))
         .pipe(chown(user))
@@ -74,7 +76,7 @@ gulp.task('scripts', function(){
 gulp.task('watch:scripts', function(){
     gulp.watch('./public/js/custom/*_src.js', ['scripts']);
     gulp.watch([
-        './public/js/custom/**/*.js',
+        './public/js/custom/**/*_src.js',
         './routes/**/*.js',
         './schemas/**/*.js',
         './config/**/*.js'
@@ -84,7 +86,7 @@ gulp.task('watch:scripts', function(){
 // LINTER
 gulp.task('lint', function() {
   return gulp.src([
-      './public/js/custom/**/*.js',
+      './public/js/custom/**/*_src.js',
       './routes/**/*.js',
       './schemas/**/*.js',
       './config/**/*.js'
