@@ -10,7 +10,7 @@ block content
                 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ullamcorper enim. Donec pharetra dui eu lorem feugiat dapibus.
             p
                 | Login in. To see it in action.
-            //if message.length > 0
+            if message.length > 0
                 .alert.alert-danger #{message}
             form.m-t(role='form', action='/attempt-login' method='post')
                 .form-group

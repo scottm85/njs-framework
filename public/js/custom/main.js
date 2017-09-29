@@ -1,1 +1,1 @@
-function test(t){alert(t)}var _0x01e5=["this is a test!"];!function(t,e){!function(e){for(;--e;)t.push(t.shift())}(++e)}(_0x01e5,243);var _0x501e=function(t,e){return _0x01e5[t-=0]},socket=io();test(_0x501e("0x0"));
+var socket=io();
